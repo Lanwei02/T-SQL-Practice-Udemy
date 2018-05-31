@@ -4,14 +4,14 @@
 <img width="350" height="350" src="https://github.com/Lanwei02/T-SQL-Practice-Udemy/blob/master/attach%20database.jpg">
 
 * 2. The difference between TURNCATE and DELECT(This is the 6th question in the quiz 2):
-+----------------------------------------+----------------------------------------------+
-|                Truncate                |                    Delete                    |
-+----------------------------------------+----------------------------------------------+
-| We can't Rollback after performing     | We can Rollback after delete.                |
-| Truncate.                              |                                              |
-|                                        |                                              |
-| Example:                               | Example:                                     |
-| BEGIN TRAN                             | BEGIN TRAN                                   |
+###### +----------------------------------------+----------------------------------------------+
+###### |                Truncate                |                    Delete                    |
+###### +----------------------------------------+----------------------------------------------+
+###### | We can't Rollback after performing     | We can Rollback after delete.                |
+###### | Truncate.                              |                                              |
+###### |                                        |                                              |
+###### | Example:                               | Example:                                     |
+###### | BEGIN TRAN                             | BEGIN TRAN                                   |
 | TRUNCATE TABLE tranTest                | DELETE FROM tranTest                         |
 | SELECT * FROM tranTest                 | SELECT * FROM tranTest                       |
 | ROLLBACK                               | ROLLBACK                                     |
