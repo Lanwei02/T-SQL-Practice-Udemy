@@ -5,4 +5,4 @@
 
 * 2. The difference between TURNCATE and DELECT(This is the 6th question in the quiz 2):
 https://stackoverflow.com/questions/139630/whats-the-difference-between-truncate-and-delete-in-sql
-
+<img width="350" height="350" src="https://github.com/Lanwei02/T-SQL-Practice-Udemy/turncate and delect.PNG">
